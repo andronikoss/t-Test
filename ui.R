@@ -154,13 +154,20 @@ zu anderen ökonometrischen Themen zu sehen, klicken Sie bitte auf <img src =
 'info.jpg'>.</p>")), style="color:black"),
 
         tabPanel(h5("Details"),
-p(HTML('<ul><li style="color:black;">Der Stichprobenerzeugung liegen die 
+p(HTML('<p style="color:black;">Der Stichprobenerzeugung liegen die 
 „wahren" Parameterwerte \\( \\alpha=0,2 \\) und \\( \\beta=0,13 \\) sowie eine
 Störgrößenvarianz von  \\( \\sigma^{2}=2 \\) zugrunde. Die  \\( x_{t}
 \\)-Werte werden aus einer Normalverteilung mit Erwartungswert \\( E(x_{t})=45
 \\) und Varianz \\( σ_{x}=18 \\) erzeugt. Treten in der Stichprobe negative
 \\( x_{t} \\)-Werte auf, dann wird die gesamte Stichprobe erneut
-erzeugt.</li></ul>')
+erzeugt.</p>'),HTML("<p
+style='color:black;'> Die Dichte der \\( t \\)-Werte wurde mit Gaußkern ermittelt.
+Für die Wahl der Bandbreite wurde die Faustregel von Silverman herangezogen
+(Silverman, B. W., 1986, Density Estimation for
+Statistics and Data Analysis, Chapman and Hall, London, S. 47 f). </p>"),HTML("<p
+style='color:black;'>Die entsprechenden R-Skripte für die Reproduktion dieser
+Seite sind unter folgendem Link aufrufbar: <a href='https://github.com/andronikoss/t-Test' target='_blank'>R
+Codes.</a></p>")
 																																	
 ))
 )),
